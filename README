@@ -1,0 +1,62 @@
+## Marticulation Registration Number System
+
+The Marticulation Registration Number System is a computerized application that allows for the registration, management, and retrieval of student records. It is built using Python, Flask framework, and PostgreSQL database.
+
+### Prerequisites
+- Python 3.7 or higher installed
+- PostgreSQL database server installed and running
+- Required Python packages listed in `requirements.txt` installed
+
+### Setup Instructions
+
+1. Clone the repository to your local machine:
+   ```
+   git clone https://github.com/Ayyubiy90/marticulation-registration-system.git
+   ```
+
+2. Navigate to the project folder:
+   ```
+   cd marticulation-registration-system
+   ```
+
+3. Create and activate a virtual environment (optional but recommended):
+   ```
+   python -m venv venv
+   source venv/bin/activate (Linux/Mac)
+   venv\Scripts\activate (Windows)
+   ```
+
+4. Install the required Python packages:
+   ```
+   pip install -r requirements.txt
+   ```
+
+5. Set up the database:
+   - Create a PostgreSQL database.
+   - Update the database connection details in `db_connection.py` with your database credentials.
+
+6. Run the application:
+   ```
+   python main.py
+   ```
+
+7. Access the application in your web browser:
+   ```
+   http://localhost:5000
+   ```
+
+### Functionality
+
+The Marticulation Registration Number System provides the following functionality:
+
+- Registration of students by entering their name, date of birth, program enrolled, and registration number.
+- Search for students by name or registration number.
+- Modification or deletion of student records.
+- Sorting and filtering of student records.
+
+### Additional Notes
+
+- Make sure to update the database connection details in `db_connection.py` with your specific configuration.
+- The application runs on the default Flask development server, which is not suitable for production. Consider deploying the application using a production WSGI server for better performance and security.
+
+For any issues or inquiries, please contact [ayyubiy67@gmail.com](mailto:chinxalivery@gmail.com).
