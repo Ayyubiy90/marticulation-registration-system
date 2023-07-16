@@ -16,7 +16,6 @@ The Marticulation Registration Number System is a computerized system for managi
 - Python - The programming language used for the backend logic
 - Flask - The web framework used for building the application
 - PostgreSQL - The relational database management system used for storing student data
-- HTML/CSS - The markup language and stylesheets used for the user interface
 
 ## Setup and Usage
 
